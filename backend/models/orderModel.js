@@ -38,7 +38,7 @@ const orderSchema = new Schema(
       email_address: { type: String },
     },
     itemsPrice: {
-      tpye: Number,
+      type: Number,
       required: true,
       default: 0.0,
     },
@@ -71,7 +71,7 @@ const orderSchema = new Schema(
       default: false,
     },
     deliveredAt: {
-      tpye: Date,
+      type: Date,
     },
   },
   {
